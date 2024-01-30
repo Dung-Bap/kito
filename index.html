@@ -1,0 +1,516 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./assets/css/base.css" />
+        <link rel="stylesheet" href="./assets/css/main.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@300&family=Sevillana&family=Silkscreen:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Sansita:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Sansita:ital,wght@1,800&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="app">
+            <header class="header">
+                <div class="top-header">
+                    <div class="grid">
+                        <ul class="top-header__list">
+                            <li class="top-header__item">
+                                <span class="top-header__item-left"
+                                    >KITO - Every day low price</span
+                                >
+                            </li>
+                            <li class="top-header__item">
+                                <span class="top-header__item-center">
+                                    Free Delivery on orders over £120. Don’t
+                                    miss discount.</span
+                                >
+                            </li>
+                            <li class="top-header__item">
+                                <div class="top-header__item-right">
+                                    <span
+                                        >ENG
+                                        <img
+                                            class="icon__arrow"
+                                            alt="thumbnail"
+                                            src="./assets/img/icons/arrow.svg"
+                                        />
+                                    </span>
+                                    <span
+                                        >USD
+                                        <img
+                                            class="icon__arrow"
+                                            alt="thumbnail"
+                                            src="./assets/img/icons/arrow.svg"
+                                        />
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="head">
+                    <div class="grid">
+                        <div class="head__content">
+                            <div class="head__left">
+                                <ul class="head__left-list">
+                                    <li class="head__left-list-item">Home</li>
+                                    <li class="head__left-list-item">Shop</li>
+                                    <li class="head__left-list-item">
+                                        Pages
+                                        <img
+                                            class="icon__arrow"
+                                            alt="thumbnail"
+                                            src="./assets/img/icons/arrow.svg"
+                                        />
+                                    </li>
+                                    <li class="head__left-list-item">
+                                        Contact
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="head__center">
+                                <h1>KITO</h1>
+                            </div>
+                            <span class="head__center-responsive">
+                                <img
+                                    alt="thumbnail"
+                                    src="./assets/img/responsive/menu.svg"
+                                />
+                            </span>
+                            <div class="head__right">
+                                <ul class="head__right-list">
+                                    <li class="head__right-list-item">
+                                        <img
+                                            alt="thumbnail"
+                                            src="./assets/img/icons/Search.svg"
+                                        />
+                                    </li>
+                                    <li class="head__right-list-item bag__noti">
+                                        <img
+                                            alt="thumbnail"
+                                            src="./assets/img/icons/shopping-bag.svg"
+                                        />
+                                        <span class="quantity__bag">0</span>
+                                    </li>
+                                    <li
+                                        class="head__right-list-item heart_noti"
+                                    >
+                                        <img
+                                            alt="thumbnail"
+                                            src="./assets/img/icons/heart.svg"
+                                        />
+                                        <span class="quantity__heart">0</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <div class="grid">
+                    <div class="container">
+                        <div class="about-us_responsive">
+                            <h1>About Us</h1>
+                            <div class="breadcrumbs">
+                                <span>Home </span>
+                                <span>About </span>
+                            </div>
+                        </div>
+                        <div class="banner">
+                            <div class="banner__left">
+                                <img
+                                    alt="thumbnail"
+                                    src="./assets/img/banner/Background.png"
+                                />
+                                <div class="banner__left-content">
+                                    <label class="label__about-us">
+                                        ABOUT US
+                                    </label>
+                                    <label class="label__sprcial-price">
+                                        SPRCICAL PRICE
+                                    </label>
+                                    <div class="banner__left-des">
+                                        <h1>bring exciting moments</h1>
+                                        <h1>of fun while playing &</h1>
+                                        <h1>learning for children.</h1>
+                                    </div>
+                                    <button class="button__contact-large">
+                                        CONTACT US
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="banner__right">
+                                <img
+                                    alt="thumbnail"
+                                    src="./assets//img/banner/Baby Aspen Bitsy Bluebird Plush Plus Bird with Socks for Baby to Wear 4 1.png"
+                                />
+                                <div class="banner__right-content">
+                                    <img
+                                        alt="playing"
+                                        src="./assets/img/banner/Icon.png"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pround-of">
+                            <div class="text__header">
+                                <h1>What we are proud of.</h1>
+                            </div>
+                            <div class="pround-of__list">
+                                <div class="pround-of__item">
+                                    <span>20+</span>
+                                    <h3>Total top services</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, sed do
+                                        consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                                <div class="pround-of__item">
+                                    <span>15+</span>
+                                    <h3>Countries</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, sed do
+                                        consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                                <div class="pround-of__item">
+                                    <span>98%</span>
+                                    <h3>Positive Feedback</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, sed do
+                                        consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                                <div class="pround-of__item">
+                                    <span>2,558</span>
+                                    <h3>Usual users</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, sed do
+                                        consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pround-of__image">
+                            <div class="pround-of__image-left">
+                                <div>
+                                    <img
+                                        alt="thumbnail"
+                                        src="./assets/img/pround-of/8 2.png"
+                                    />
+                                </div>
+                                <div>
+                                    <img
+                                        alt="thumbnail"
+                                        src="./assets/img/pround-of/2.png"
+                                    />
+                                </div>
+                            </div>
+                            <div class="pround-of__image-right">
+                                <img
+                                    alt="thumbnail"
+                                    src="./assets/img/pround-of/Background.png"
+                                />
+                                <div class="pround-of__image-content">
+                                    <h1>Big love for</h1>
+                                    <h1>our lovely kids.</h1>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore. Ut enim ad minim
+                                        veniam, quis nostrud exercitation.
+                                    </p>
+                                    <button class="button__contact-medium">
+                                        CONTACT US
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="our-team">
+                            <div class="text__header">
+                                <h1>Our team</h1>
+                            </div>
+                            <div class="our-team__list">
+                                <div class="our-team__item">
+                                    <img
+                                        class="our-team_image"
+                                        alt="thumbnail"
+                                        src="./assets/img/our-team/Mask group.png"
+                                    />
+                                    <h3 class="our-team__name">Name 01</h3>
+                                    <span class="our-team__position"
+                                        >CEO & Founder</span
+                                    >
+                                    <p>
+                                        Lorem ipsum dolor sit amet, sed do
+                                        consectetur adipiscing elit.
+                                    </p>
+                                    <div class="our-team__contact-icon">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-instagram"></i>
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </div>
+                                </div>
+                                <div class="our-team__item">
+                                    <img
+                                        class="our-team_image"
+                                        alt="thumbnail"
+                                        src="./assets/img/our-team/Mask group (1).png"
+                                    />
+                                    <h3 class="our-team__name">Name 01</h3>
+                                    <span class="our-team__position"
+                                        >Personnel</span
+                                    >
+                                    <p>
+                                        Lorem ipsum dolor sit amet, sed do
+                                        consectetur adipiscing elit.
+                                    </p>
+                                    <div class="our-team__contact-icon">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-instagram"></i>
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </div>
+                                </div>
+                                <div class="our-team__item">
+                                    <img
+                                        class="our-team_image"
+                                        alt="thumbnail"
+                                        src="./assets/img/our-team/Mask group (2).png"
+                                    />
+                                    <h3 class="our-team__name">Name 01</h3>
+                                    <span class="our-team__position"
+                                        >Personnel</span
+                                    >
+                                    <p>
+                                        Lorem ipsum dolor sit amet, sed do
+                                        consectetur adipiscing elit.
+                                    </p>
+                                    <div class="our-team__contact-icon">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-instagram"></i>
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </div>
+                                </div>
+                                <div class="our-team__item">
+                                    <img
+                                        class="our-team_image"
+                                        alt="thumbnail"
+                                        src="./assets/img/our-team/Mask group (3).png"
+                                    />
+                                    <h3 class="our-team__name">Name 01</h3>
+                                    <span class="our-team__position"
+                                        >Personnel</span
+                                    >
+                                    <p>
+                                        Lorem ipsum dolor sit amet, sed do
+                                        consectetur adipiscing elit.
+                                    </p>
+                                    <div class="our-team__contact-icon">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-instagram"></i>
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="benifit">
+                            <div class="benifit__container">
+                                <div class="benifit__item">
+                                    <img
+                                        alt="thumbnail"
+                                        src="./assets/img/benifit/truck.svg"
+                                    />
+                                    <div class="benifit__item-content">
+                                        <span>Free shipping</span>
+                                        <p>Free shipping orders from $150</p>
+                                    </div>
+                                </div>
+                                <div class="benifit__item">
+                                    <img
+                                        alt="thumbnail"
+                                        src="./assets/img/benifit/gift.svg"
+                                    />
+                                    <div class="benifit__item-content">
+                                        <span>Gift/Discount codes</span>
+                                        <p>Many discount codes every day</p>
+                                    </div>
+                                </div>
+                                <div class="benifit__item">
+                                    <img
+                                        alt="thumbnail"
+                                        src="./assets/img/benifit/return.svg"
+                                    />
+                                    <div class="benifit__item-content">
+                                        <span>Money return</span>
+                                        <p>Return it within 30 days</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="grid">
+                    <div class="footer-top">
+                        <h1>KITO</h1>
+                        <div class="footer-top__right">
+                            <p class="footer-top__right-text">
+                                Join our list and get 20% off your first
+                                purchase!
+                            </p>
+                            <div class="footer-top__right-form">
+                                <div class="custom__input">
+                                    <input
+                                        type="text"
+                                        class="footer-top__right-input"
+                                        placeholder="Enter your email"
+                                    />
+                                    <i
+                                        class="fa-regular fa-envelope email__icon"
+                                    ></i>
+                                </div>
+                                <button class="footer-top__right-button">
+                                    SUBSCRIBE
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="grid">
+                        <div class="footer-bottom__list">
+                            <div class="footer-bottom__item">
+                                <span>Contact info</span>
+                                <div class="footer-bottom__item-text">
+                                    <img
+                                        class="our-team_image"
+                                        alt="thumbnail"
+                                        src="./assets/img/infor/pin.svg"
+                                    />
+                                    <p>
+                                        560 King St W, Kingston, ON K7L 4V7,
+                                        Canada
+                                    </p>
+                                </div>
+                                <div class="footer-bottom__item-text">
+                                    <img
+                                        class="our-team_image"
+                                        alt="thumbnail"
+                                        src="./assets/img/infor/email.svg"
+                                    />
+                                    <p>contactinfo@gmail.com</p>
+                                </div>
+                                <div class="footer-bottom__item-text">
+                                    <img
+                                        class="our-team_image"
+                                        alt="thumbnail"
+                                        src="./assets/img/infor/phone.svg"
+                                    />
+                                    <p>+1 212 736 3100</p>
+                                </div>
+                            </div>
+                            <div class="footer-bottom__item">
+                                <span>Quick links</span>
+                                <div class="footer-bottom__item-text">
+                                    <p>My account</p>
+                                </div>
+                                <div class="footer-bottom__item-text">
+                                    <p>Cart</p>
+                                </div>
+                                <div class="footer-bottom__item-text">
+                                    <p>Wishlist</p>
+                                </div>
+                                <div class="footer-bottom__item-text">
+                                    <p>Product Compare</p>
+                                </div>
+                            </div>
+                            <div class="footer-bottom__item">
+                                <span>Information</span>
+                                <div class="footer-bottom__item-text">
+                                    <p>Privacy policy</p>
+                                </div>
+                                <div class="footer-bottom__item-text">
+                                    <p>Refund policy</p>
+                                </div>
+                                <div class="footer-bottom__item-text">
+                                    <p>Shipping & Return</p>
+                                </div>
+                                <div class="footer-bottom__item-text">
+                                    <p>Term & conditions</p>
+                                </div>
+                            </div>
+                            <div class="footer-bottom__item">
+                                <span>Contact info</span>
+                                <div class="footer-bottom__item-text">
+                                    <i
+                                        class="icon-footer fa-brands fa-facebook-f"
+                                    ></i>
+                                    <p>Facebook</p>
+                                </div>
+                                <div class="footer-bottom__item-text">
+                                    <i
+                                        class="icon-footer fa-brands fa-twitter"
+                                    ></i>
+                                    <p>Tweeter</p>
+                                </div>
+                                <div class="footer-bottom__item-text">
+                                    <i
+                                        class="icon-footer fa-brands fa-instagram"
+                                    ></i>
+                                    <p>Instagram</p>
+                                </div>
+                                <div class="footer-bottom__item-text">
+                                    <i
+                                        class="icon-footer fa-brands fa-youtube"
+                                    ></i>
+                                    <p>Youtube</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="reserved">
+                            Beae’stemplate © 2022. All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
